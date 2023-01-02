@@ -8,6 +8,11 @@
       </div>
     </div>
   </div>
+  <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-2 pt-2"><font-awesome-icon icon="fa-solid fa-certificate" class="text-yellow-200 mr-1" />  Certifications</p>
+  <ul class="text-gray-5 text-sm">
+    <li><a href="https://aspen.eccouncil.org/Verify" target="_blank" title="CERTIFIED APPLICATION SECURITY ENGINEER - .NET">CASE .NET - 2022</a></li>
+  </ul>
+  
 </template>
 
 <script setup lang="ts">

@@ -27,15 +27,15 @@
     </div>
   </div>
   <div
-      class="container mx-auto m-10 mt-0 backdrop-blur-sm bg-gray-1/60 drop-shadow-md pl-3 pt-1 pb-1 pr-3 flex justify-between text-orange-1">
+      class="container mx-auto m-10 mt-0 backdrop-blur-sm bg-gray-1/60 drop-shadow-md pl-3 pt-1 pb-1 pr-3 flex justify-between text-orange-1 rounded-b-xl">
     <span>🖖</span>
     <span>
       
     </span>
     <span>
-    <a href="https://twitter.com/GionnyBismondo" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
+    <a href="https://twitter.com/GionnyBismondo" title="Twitter" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-twitter" class="ml-2 hover:text-blue-300"/></a>
-    <a href="https://github.com/IGionny/" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
+    <a href="https://github.com/IGionny/" title="GitHub" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-github"/></a>
     <font-awesome-icon icon="fa-solid fa-envelope" class="ml-2 hover:text-blue-300"/>
       </span>
