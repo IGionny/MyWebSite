@@ -8,22 +8,14 @@
       </div>
 
       <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-2">👋 About me</p>
-      <p class="text-gray-5 mb-2 bg-gray-2 rounded-md p-1">
-        <font-awesome-icon icon="fa-solid fa-arrows-to-dot" class="text-orange-1 mr-1"/>
-        Summary
-      </p>
-      <p class="text-gray-5 mb-2 p-1 hover:bg-gray-2 group hover:rounded-md">
-        <font-awesome-icon icon="fa-solid fa-route" class="text-orange-1 group-hover:rotate-45 mr-1"/>
-        Experiences
-      </p>
-      <p class="text-gray-5 p-1 hover:bg-gray-2 group hover:rounded-md">
-        <font-awesome-icon icon="fa-solid fa-gamepad" class="text-orange-1 group-hover:rotate-45 mr-1"/>
-        Passions
-      </p>
+      
+      <LeftMenuItem name="Summary" icon="fa-arrows-to-dot" />
+      <LeftMenuItem name="Experiences" icon="fa-route" />
+      <LeftMenuItem name="Passions" icon="fa-gamepad" />
 
       <hr class="mt-2 mb-4 border-gray-2">
       
-     <Knowledges />
+     <Knowledge />
       
     </div>
     <div class="md:basis-3/4 bg-gray-3 md:rounded-r-xl flex flex-col drop-shadow-md">
@@ -42,6 +34,7 @@
 
 import WindowButtons from "./components/WindowButtons.vue";
 import Terminal from "./components/Terminal.vue";
-import Knowledges from "./components/Knowledges.vue";
+import Knowledge from "./components/Knowledge.vue";
+import LeftMenuItem from "./components/LeftMenuItem.vue";
 </script>
 
