@@ -37,7 +37,8 @@
         icon="fa-brands fa-twitter" class="ml-2 hover:text-blue-300"/></a>
     <a href="https://github.com/IGionny/" title="GitHub" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-github"/></a>
-    <font-awesome-icon icon="fa-solid fa-envelope" class="ml-2 hover:text-blue-300"/>
+    <a href="mailto:gbismondo@gmail.com"><font-awesome-icon icon="fa-solid fa-envelope"
+                                                            class="ml-2 hover:text-blue-300"/></a>
       </span>
   </div>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="pl-1 pt-1 h-auto  text-green-200 font-mono text-xs bg-black" id="console">
+  <div class="pl-1 pt-1 h-auto text-green-200 font-mono text-md bg-black">
     <pre class="pb-1">
       ________.__                                  .__
       /  _____/|__| _______  _______    ____   ____ |__|
@@ -20,14 +20,12 @@
       In my daily job time, I develop my Web Applications with the power of <u>C#/.Net Core</u>, <u>VueJs 2 (3 see you soon..)</u>, <u>WebPack</u>, <u>PostgreSQL</u>, <u>Elastic Search</u>, <u>Active Directory</u>, <u>Azure A.D.</u> (and many other nerdies™) and I deploy them with a lot of love made in <u>Docker</u>  <font-awesome-icon icon="fa-brands fa-docker" class="text-blue-500"/>. 
     </p>
     <p class="pt-2 pb-1">
-      My favourites developing tools are: <u>JetBrains Rider (IDE)</u>, <u>Total Commander</u>, <u>NotePad++</u>, <u>PgAdmin</u>, <u>Docker</u>.
+      My favourite developer tools are: <u>JetBrains Rider (IDE)</u>, <u>Total Commander</u>, <u>NotePad++</u>, <u>PgAdmin</u>, <u>Docker</u>.
     </p>
+    <!--<p class="pt-2 pb-1 text-orange-1" name="Experiences">Experiences</p>
     <p class="pb-1">
-      As a father, I understand the importance of balancing my time between my family and my hobbies. However, I also
-      enjoy spending time gaming and have even developed my own games in the past. I am passionate about using my skills
-      as a developer to create exciting and engaging experiences for players. In my free time, you can find me spending
-      time with my family, gaming, or working on new projects. Thank you for having me!s
-    </p>
+     
+    </p>-->
     <p class="pt-3 pb-3 text-orange-1">
       Thank you for having me! 🙏 Feel free to contact me
     </p>
