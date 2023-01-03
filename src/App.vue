@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex flex-row items-stretch md:divide-x divide-black mx-auto m-10 mb-0">
+  <div class="container flex flex-row items-stretch md:divide-x divide-black mx-auto mt-10 mb-0">
     <div
         class="md:block md:basis-1/4 pt-1 pl-4 pr-2 pb-4 bg-gray-1 rounded-tl-xl hidden backdrop-blur-sm bg-gray-1/60 drop-shadow-xl ">
 
@@ -33,10 +33,14 @@
       
     </span>
     <span>
+      <a href="https://www.linkedin.com/in/giovanni-bismondo-033b7465/" title="Linkedin" target="_blank"
+         class="ml-2 hover:text-blue-300"><font-awesome-icon
+          icon="fa-brands fa-linkedin-in" class="ml-2 hover:text-blue-300"/></a>
     <a href="https://twitter.com/GionnyBismondo" title="Twitter" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-twitter" class="ml-2 hover:text-blue-300"/></a>
     <a href="https://github.com/IGionny/" title="GitHub" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-github"/></a>
+      
     <a href="mailto:gbismondo@gmail.com"><font-awesome-icon icon="fa-solid fa-envelope"
                                                             class="ml-2 hover:text-blue-300"/></a>
       </span>

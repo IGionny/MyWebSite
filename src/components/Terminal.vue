@@ -1,12 +1,11 @@
 <template>
-  <div class="pl-1 pt-1 h-auto text-green-200 font-mono text-md bg-black">
+  <div class="p-1 h-auto text-green-200 font-mono text-md bg-black">
     <pre class="pb-1">
-      ________.__                                  .__
-      /  _____/|__| _______  _______    ____   ____ |__|
-      /   \  ___|  |/  _ \  \/ /\__  \  /    \ /    \|  |
-      \    \_\  \  (  _> )   /  / __ \|   |  \   |  \  |
-      \______  /__|\____/ \_/  (____  /___|  /___|  /__|
-      \/                     \/     \/     \/
+   ___ _                             _ 
+  / _ (_) _____   ____ _ _ __  _ __ (_)
+ / /_\/ |/ _ \ \ / / _` | '_ \| '_ \| |
+/ /_\\| | (_) \ V / (_| | | | | | | | |
+\____/|_|\___/ \_/ \__,_|_| |_|_| |_|_|
     </pre>
     <p class="pb-1">Last login: Wed Sep 25 09:11:04 on ttys002</p>
     <p class="pb-3">Giovanni:DevProjects giovanni$</p>
@@ -29,8 +28,10 @@
     <p class="pt-3 pb-3 text-orange-1">
       Thank you for having me! 🙏 Feel free to contact me
     </p>
+    
+    <Knowledge class="sm:hidden md:hidden l:hidden xl:hidden mb-3" />
   </div>
 </template>
 <script setup lang="ts">
-
+import Knowledge from "./Knowledge.vue";
 </script>

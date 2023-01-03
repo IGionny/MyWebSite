@@ -1,5 +1,13 @@
 # MyWebSite
 
+Usefull resources:
+
+- https://dev.to/trentyang/how-to-setup-google-domain-for-github-pages-1p58
+- https://www.pexels.com/photo/white-and-black-mountain-wallpaper-933054/
+- https://codepen.io/jessekernaghan/pen/xwvdBL
+- https://unicode.org/emoji/charts/full-emoji-list.html
+- https://patorjk.com/software/taag/#p=testall&f=Speed&t=Giovanni
+
 ---
 
 # Vue 3 + TypeScript + Vite
