@@ -30,7 +30,7 @@
       class="container mx-auto m-10 mt-0 backdrop-blur-sm bg-gray-1/60 drop-shadow-md pl-3 pt-1 pb-1 pr-3 flex justify-between text-orange-1 rounded-b-xl">
     <span>🖖</span>
     <span>
-      
+      -
     </span>
     <span>
       <a href="https://www.linkedin.com/in/giovanni-bismondo-033b7465/" title="Linkedin" target="_blank"
