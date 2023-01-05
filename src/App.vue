@@ -37,7 +37,7 @@
          class="ml-2 hover:text-blue-300"><font-awesome-icon
           icon="fa-brands fa-linkedin-in" class="ml-2 hover:text-blue-300"/></a>
     <a href="https://twitter.com/GionnyBismondo" title="Twitter" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
-        icon="fa-brands fa-twitter" class="ml-2 hover:text-blue-300"/></a>
+        icon="fa-brands fa-twitter" class="hover:text-blue-300"/></a>
     <a href="https://github.com/IGionny/" title="GitHub" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-github"/></a>
       
