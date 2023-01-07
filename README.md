@@ -7,10 +7,7 @@ Useful resources:
 - https://codepen.io/jessekernaghan/pen/xwvdBL
 - https://unicode.org/emoji/charts/full-emoji-list.html
 - https://patorjk.com/software/taag/#p=testall&f=Speed&t=Giovanni
-
-Git commands:
-
-- git subtree push --prefix dist origin publish --force
+- https://github.com/sitek94/vite-deploy-demo
 
 ---
 
