@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+import {createRouter, createWebHashHistory, RouteRecordRaw} from "vue-router";
 
 //See: https://fontawesome.com/docs/web/use-with/vue/add-icons
 
@@ -12,8 +13,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faArrowsToDot, faRoute, faGamepad, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope, faCertificate } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faCertificate, faMagnifyingGlass, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub, faDocker, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import Home from "./components/Home.vue";
+import Case from "./components/Case.vue";
 
 /* add icons to the library */
 library.add(faArrowsToDot);
@@ -23,10 +26,32 @@ library.add(faChevronLeft);
 library.add(faChevronRight);
 library.add(faEnvelope);
 library.add(faCertificate);
+library.add(faMagnifyingGlass);
+library.add(faArrowUpRightFromSquare);
+
 //
 library.add(faTwitter);
 library.add(faGithub);
 library.add(faDocker);
 library.add(faLinkedinIn);
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+
+
+const routes = [
+    { name: "home", path: '/', component: Home },
+    { name: "summary", path: '/home/summary', component: Home },
+    { name: "experiences", path: '/home/experiences', component: Home },
+    { name: "passions", path: '/home/passions', component: Home },
+    { name: "case", path: '/case', component: Case},
+] satisfies RouteRecordRaw[];
+
+
+const router = createRouter({
+    history: createWebHashHistory(),
+    routes: routes,
+})
+
+const app = createApp(App);
+app.component('font-awesome-icon', FontAwesomeIcon);
+app.use(router);
+app.mount('#app');

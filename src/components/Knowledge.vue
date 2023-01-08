@@ -14,8 +14,11 @@
       Certifications
     </p>
     <ul class="text-gray-5 text-sm">
-      <li><a href="https://aspen.eccouncil.org/Verify" target="_blank"
-             title="CERTIFIED APPLICATION SECURITY ENGINEER - .NET">CASE .NET - 2022</a></li>
+      <li>
+        <router-link to="/case"  title="CERTIFIED APPLICATION SECURITY ENGINEER - .NET">CASE .NET - 2022</router-link>
+        <!--<a href="https://aspen.eccouncil.org/Verify" target="_blank"
+            ></a>-->
+      </li>
     </ul>
   </div>
 </template>

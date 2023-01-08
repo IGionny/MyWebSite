@@ -23,14 +23,16 @@
         <font-awesome-icon icon="fa-solid fa-chevron-right" class="text-gray-400"/>
         <span class="ml-4">Terminal</span>
       </div>
-      <Terminal class="flex-1 "/>
+      
+      <router-view />
+      
     </div>
   </div>
   <div
       class="container mx-auto m-10 mt-0 backdrop-blur-sm bg-gray-1/60 drop-shadow-md pl-3 pt-1 pb-1 pr-3 flex justify-between text-orange-1 rounded-b-xl">
     <span>🖖</span>
-    <span>
-      
+    <span class="text-sm">
+      Made by myself™
     </span>
     <span>
       <a href="https://www.linkedin.com/in/giovanni-bismondo-033b7465/" title="Linkedin" target="_blank"
@@ -49,9 +51,7 @@
 
 </template>
 <script setup lang="ts">
-
 import WindowButtons from "./components/WindowButtons.vue";
-import Terminal from "./components/Terminal.vue";
 import Knowledge from "./components/Knowledge.vue";
 import LeftMenuItem from "./components/LeftMenuItem.vue";
 </script>

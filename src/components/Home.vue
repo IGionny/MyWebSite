@@ -1,5 +1,5 @@
 <template>
-  <div class="p-1 h-auto text-green-200 font-mono text-md bg-black">
+  <div class="flex-1 p-1 h-auto text-green-200 font-mono text-md bg-black">
     <pre class="pb-1">
    ___ _                             _ 
   / _ (_) _____   ____ _ _ __  _ __ (_)
