@@ -12,6 +12,7 @@
       <LeftMenuItem name="Summary" icon="fa-arrows-to-dot"/>
       <LeftMenuItem name="Experiences" icon="fa-route"/>
       <LeftMenuItem name="Passions" icon="fa-gamepad"/>
+      <LeftMenuItem name="Tools" icon="fa-wrench"/>
 
       <hr class="mt-2 mb-4 border-gray-2">
 
@@ -23,14 +24,16 @@
         <font-awesome-icon icon="fa-solid fa-chevron-right" class="text-gray-400"/>
         <span class="ml-4">Terminal</span>
       </div>
-      
-      <router-view />
-      
+
+      <router-view/>
+
     </div>
   </div>
   <div
       class="container mx-auto m-10 mt-0 backdrop-blur-sm bg-gray-1/60 drop-shadow-md pl-3 pt-1 pb-1 pr-3 flex justify-between text-orange-1 rounded-b-xl">
-    <span>🖖</span>
+    <span>
+      <router-link to="/">🖖</router-link>
+    </span>
     <span class="text-sm">
       Made by myself™
     </span>

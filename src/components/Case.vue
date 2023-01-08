@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-1 p-2 h-auto text-green-200 font-mono text-md bg-black">
+  <div class="flex-1 p-2 pb-4 h-auto text-green-200 font-mono text-md bg-black">
     <img
         src="../assets/iclass-web-white.png" height="46" width="210"/>
     <h3 class="pt-1 text-blue-400">

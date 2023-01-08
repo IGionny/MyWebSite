@@ -14,7 +14,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faArrowsToDot, faRoute, faGamepad, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope, faCertificate, faMagnifyingGlass, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faGithub, faDocker, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faWrench, faServer, faCubes, faHourglassStart } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faGithub, faDocker, faLinkedinIn, faSafari } from '@fortawesome/free-brands-svg-icons'
 import Home from "./components/Home.vue";
 import Case from "./components/Case.vue";
 
@@ -28,12 +29,16 @@ library.add(faEnvelope);
 library.add(faCertificate);
 library.add(faMagnifyingGlass);
 library.add(faArrowUpRightFromSquare);
-
+library.add(faWrench);
+library.add(faServer);
+library.add(faCubes);
+library.add(faHourglassStart);
 //
 library.add(faTwitter);
 library.add(faGithub);
 library.add(faDocker);
 library.add(faLinkedinIn);
+library.add(faSafari);
 
 
 
@@ -42,6 +47,7 @@ const routes = [
     { name: "summary", path: '/home/summary', component: Home },
     { name: "experiences", path: '/home/experiences', component: Home },
     { name: "passions", path: '/home/passions', component: Home },
+    { name: "tools", path: '/home/tools', component: Home },
     { name: "case", path: '/case', component: Case},
 ] satisfies RouteRecordRaw[];
 
