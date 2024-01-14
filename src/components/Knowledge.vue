@@ -1,14 +1,47 @@
 <template>
   <div>
     <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-2">📚 My knowledge in short</p>
-    <div v-for="kl in knowledgeList" :key="kl.Name" class="mb-1">
-      <p class="text-gray-5 text-sm p-1">{{ kl.Name }}</p>
-      <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-        <div class="bg-blue-600 text-xs font-sm text-blue-100 text-center p-0.1 leading-none rounded-full"
-             :style="{width: kl.Value + '%'}"> {{ kl.Value }}%
-        </div>
-      </div>
+    
+    <div class="mb-1">
+      <p class="text-gray-5 text-sm p-1 font-bold flex justify-between">
+        <span>.NET Core (C#)</span>
+        <span>20 Yrs 🎄</span>
+      </p>
+      
+      <ul class="list-disc ml-10 font-light">
+        <li>Web Development Mvc</li>
+        <li>Tests (xUnit, FluentAssertions)</li>
+        <li>Patterns (Singleton, Factory and so on..)</li>
+      </ul>
     </div>
+    <div class="mb-1">
+      <p class="text-gray-5 text-sm p-1 font-bold flex justify-between">
+        <span>Typescript / VueJS 2 and 3</span>
+        <span>7 Yrs 🎄</span>
+      </p>
+      <div>
+        (previously Javascript and JQuery)
+      </div>
+      <ul class="list-disc ml-10 font-light">
+        <li>SPA</li>
+        <li>Big Apps</li>
+        <li>Bundling optimizations</li>
+      </ul>
+    </div>
+    <div class="mb-1">
+      <p class="text-gray-5 text-sm p-1 font-bold flex justify-between">
+        <span>Linux / Docker / CI-CD</span>
+        <span>7 Yrs 🎄</span>
+      </p>
+      <ul class="list-disc ml-10 font-light">
+        <li>Debian (servers)</li>
+        <li>Docker (local registry, dockerfile, docker compose etc..)</li>
+        <li>GitLab (installation/pipelines etc..)</li>
+        <li>GitHub (Copilot etc..)</li>
+        <li>Nuget/Npm local</li>
+      </ul>
+    </div>
+    
     <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-2 pt-2">
       <font-awesome-icon icon="fa-solid fa-certificate" class="text-yellow-200 mr-1"/>
       Certifications
@@ -24,19 +57,4 @@
 </template>
 
 <script setup lang="ts">
-
-const knowledgeList = [{
-  Name: "C# / .NET Core",
-  Value: 90
-},
-  {
-    Name: "Typescript / VueJS",
-    Value: 70
-  },
-  {
-    Name: "Linux / Docker / CI-CD",
-    Value: 60
-  },
-];
-
 </script>
