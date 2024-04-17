@@ -15,7 +15,7 @@ import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import {faArrowsToDot, faRoute, faGamepad, faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
 import {faEnvelope, faCertificate, faMagnifyingGlass, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 import {faWrench, faServer, faCubes, faHourglassStart} from '@fortawesome/free-solid-svg-icons'
-import {faTwitter, faGithub, faDocker, faLinkedinIn, faSafari} from '@fortawesome/free-brands-svg-icons'
+import {faTwitter, faGithub, faDocker, faLinkedinIn, faSafari, faRust} from '@fortawesome/free-brands-svg-icons'
 import Home from "./components/Home.vue";
 import Case from "./components/Case.vue";
 
@@ -39,6 +39,7 @@ library.add(faGithub);
 library.add(faDocker);
 library.add(faLinkedinIn);
 library.add(faSafari);
+library.add(faRust);
 
 
 const routes = [
