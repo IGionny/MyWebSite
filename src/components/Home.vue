@@ -7,74 +7,95 @@
 / /_\\| | (_) \ V / (_| | | | | | | | |
 \____/|_|\___/ \_/ \__,_|_| |_|_| |_|_|
     </pre>
-    <p class="pb-1">Last login: Sun Apr 2024 17 17:20:04 on ttys002</p>
+    <p class="pb-1">Last login: Sun October 2024 14 17:20:04 on ttys002</p>
     <p class="pb-3">Giovanni:DevProjects giovanni$</p>
     <p class="pb-1">
       <span class="text-orange-1 font-bold">Hi 👋 there!</span>, I'm a father, gamer and developer in Padua, Italy.
     </p>
-    <p class="pb-1">
-      This is a holiday season <span class="text-orange-1 font-bold">experiment to study some technologies that I don't usually work with</span>
-      like: Tailwind
-      <svg viewBox="0 0 50 31" class="inline text-slate-900 dark:text-white w-auto h-3">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M25.517 0C18.712 0 14.46 3.382 12.758 10.146c2.552-3.382 5.529-4.65 8.931-3.805 1.941.482 3.329 1.882 4.864 3.432 2.502 2.524 5.398 5.445 11.722 5.445 6.804 0 11.057-3.382 12.758-10.145-2.551 3.382-5.528 4.65-8.93 3.804-1.942-.482-3.33-1.882-4.865-3.431C34.736 2.92 31.841 0 25.517 0zM12.758 15.218C5.954 15.218 1.701 18.6 0 25.364c2.552-3.382 5.529-4.65 8.93-3.805 1.942.482 3.33 1.882 4.865 3.432 2.502 2.524 5.397 5.445 11.722 5.445 6.804 0 11.057-3.381 12.758-10.145-2.552 3.382-5.529 4.65-8.931 3.805-1.941-.483-3.329-1.883-4.864-3.432-2.502-2.524-5.398-5.446-11.722-5.446z"
-              fill="#38bdf8"></path>
-      </svg>
-      And GitHub pages.
-    </p>
     <p class="pt-2 pb-1">
-      In my daily job time, I develop my Web Applications with the power of <u>C#/.Net Core</u>, <u>VueJs 3</u>, <u>Vite</u>, <u>PostgreSQL</u>, <u>Elastic Search</u>, <u>Active Directory</u>, <u>Azure A.D.</u>
+      In my daily job time, I develop my Web Applications with the power of <u>C#/.Net Core</u>, <u>VueJs 3</u>,
+      <u>Vite</u>, <u>PostgreSQL</u>, <u>Elastic Search</u>, <u>Active Directory</u>, <u>Azure A.D.</u>
       (and many other nerdies™) and I deploy them with a lot of love made in <u>Docker</u>
       <font-awesome-icon icon="fa-brands fa-docker" class="text-blue-500 ml-1"/>
       .
     </p>
     <p class="pt-2 pb-1">
-      My favourite developer tools are: <u>JetBrains Rider (IDE)</u>, <u>Alpha <span class="text-decoration-line-through">Total</span> Commander</u>, <u>NotePad++</u>, <u>PgAdmin</u>,
+      My favourite developer tools are: <u>JetBrains Rider (IDE)</u>, <u>Alpha <span
+        class="text-decoration-line-through">Total</span> Commander</u>, <u>NotePad++</u>, <u>PgAdmin</u>,
       <u>Docker</u> etc..
     </p>
     <p class="pt-2 pb-1">
-      I'm currently (on April 2024) studying <u>LLM</u> technologies <font-awesome-icon icon="fa-brands fa-rust" class="text-blue-500 mr-1"/><u>Rust</u> language and working on a <u>OSS Application for Mac</u>.
+      I'm currently (on April 2024) studying <u>LLM</u> technologies
+      <font-awesome-icon icon="fa-brands fa-rust" class="text-blue-500 mr-1"/>
+      <u>Rust</u> language and working on a <u>OSS Application for Mac</u>.
     </p>
-    <p class="pt-2 pb-1 text-orange-1" id="section-experiences">
+    <h4 class="pt-5 pb-1 text-orange-1" id="section-experiences">
       <font-awesome-icon icon="fa-solid fa-route" class="mr-1"/>
       Experiences (in short)
-    </p>
-    <p class="pt-1">
-      Over the past seven years as a Senior Developer, I've led software development initiatives, making crucial
-      decisions on technological stacks, design, tasks, and procedures. I've honed my technical skills in software
-      architecture and security, with a focus on front-end technologies like TypeScript and VueJS. My expertise extends
-      to Linux, DevOps, and Docker. I've achieved the CASE .NET certification, emphasizing my commitment to application
-      security. Working on projects exclusively in .NET Core, Typescript, and VueJS, I've utilized technologies such as
-      Elastic Search, Azure Auth, GitLab, and more, across diverse applications like ERP, password management, network
-      access control, automated reporting systems, and virtual machine management. My extensive testing practices ensure
-      secure and continuous service for approximately 1,200 users.
-    </p>
-    <p class="pt-3">
-      In my previous role as Project Manager and Software Architect from 2010 to 2017, I oversaw all phases of software
-      production, from client interviews to project management and team coordination. My focus was on software for
-      organizing trade fair events, including CRM, SFA, quoting systems, and IoT for remote device management.
-      Noteworthy achievements include developing AutoCAD-like software in JavaScript for viewing floor plans and drawing
-      geometric figures for stand spaces, as well as managing the sale of admission tickets for Expo2015.
-    </p>
-    <p class="pt-3">
-      Before that, as a Freelancer from 2003 to 2014, I specialized in designing and implementing web-based management
-      systems for motorcycle sales and pharmaceutical data collection. This experience enhanced my analytical and
-      project management skills.
-    </p>
-    <p class="pt-3">
-      In my earlier role as a Web Developer from 2000 to 2003, I developed web portals and e-commerce sites, showcasing
-      full-stack competencies in technologies such as Microsoft ASP Classic, Java JSP/Servlet, XML, HTML, CSS, and SQL.
-    </p>
+    </h4>
+
+
+    <ol class="ml-2 relative border-s border-gray-200 dark:border-gray-700">
+      <li class="mb-10 ms-4">
+        <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2017 - Today (2024)</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Software Architect / Developer</h3>
+        <p class=" text-base font-normal text-gray-500 dark:text-gray-400">
+          Over the past seven years as a Senior Developer, I've led software development initiatives, making crucial
+          decisions on technological stacks, design, tasks, and procedures. I've honed my technical skills in software
+          architecture and security, with a focus on front-end technologies like TypeScript and VueJS. My expertise
+          extends
+          to Linux, DevOps, and Docker. I've achieved the CASE .NET certification, emphasizing my commitment to
+          application
+          security. Working on projects exclusively in <u>.NET Core</u>, <u>Typescript</u>, and <u>VueJS</u>, I've utilized technologies such
+          as
+          <u>Elastic Search</u>, <u>Azure Auth</u>, <u>GitLab</u>, and more, across diverse applications like <u>ERP</u>, <u>password management</u> (complete suite with browser extensions),
+          <u>network access control</u>, <u>automated reporting systems</u> (Kibana like), and virtual machine management.
+        </p>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">My extensive testing practices ensure secure and continuous service for approximately 2k users.</p>
+      </li>
+      <li class="mb-10 ms-4">
+        <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2010 - 2017</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Project Manager and Software Architect</h3>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          In my previous role as Project Manager and Software Architect from 2010 to 2017, I oversaw all phases of
+          software
+          production, from client interviews to project management and team coordination. My focus was on software for
+          organizing trade fair events, including CRM, SFA, quoting systems, and IoT for remote device management.
+          Noteworthy achievements include developing AutoCAD-like software in JavaScript for viewing floor plans and
+          drawing
+          geometric figures for stand spaces, as well as managing the sale of admission tickets for Expo2015.
+        </p>
+      </li>
+      <li class="ms-4">
+        <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2000 - 2014</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Junior Developer - Freelancer</h3>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          Before that, as a Freelancer from 2003 to 2014, I specialized in designing and implementing web-based management
+          systems for motorcycle sales and pharmaceutical data collection. This experience enhanced my analytical and
+          project management skills.
+        </p>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          In my earlier role as a Web Developer from 2000 to 2003, I developed web portals and e-commerce sites, showcasing
+          full-stack competencies in technologies such as Microsoft ASP Classic, Java JSP/Servlet, XML, HTML, CSS, and SQL.
+        </p>
+      </li>
+    </ol>
     <p class="pt-3">
       Throughout my career, I've embraced diverse challenges, consistently demonstrating adaptability, strong
       time-management skills, and a keen focus on achieving objectives.
 
 
     </p>
-    <p class="pt-5 pb-1 text-orange-1" id="section-passions">
+    <h4 class="pt-5 pb-1 text-orange-1" id="section-passions">
       <font-awesome-icon icon="fa-solid fa-gamepad" class="mr-1"/>
       Passions
-    </p>
+    </h4>
     <p class="pb-1">
       I'm passionate about video games, eagerly awaiting <u>Alan Wake 2</u> and <u>Baldur's Gate 3</u>. TV-wise, I love
       the humor in
@@ -87,13 +108,10 @@
       their potential in changing how we interact with technology. These passions add a unique flavor to my daily
       adventures!
     </p>
-    <p class="pt-4">
-      <span class="text-orange-1 font-bold">TBH</span>, those sentences were generated by ChatGPT 🤖, but it is all true!
-    </p>
-    <p class="pt-5 pb-1 text-orange-1" id="section-tools">
+    <h4 class="pt-5 pb-1 text-orange-1" id="section-tools">
       <font-awesome-icon icon="fa-solid fa-wrench" class="mr-1"/>
       Tools
-    </p>
+    </h4>
     <p>
       Here are the tools that I use more:
     </p>
@@ -174,7 +192,7 @@
         </div>
         <div class="bg-gray-1 rounded-2xl p-4">
           <ul class="pt-1 flex flex-wrap text-sm gap-y-2 md:justify-start items-center font-karla">
-            <li>ChartJS</li>
+            <li>ApexChart</li>
             <li class="mx-3 opacity-30">•</li>
             <li>FontAwesome</li>
             <li class="mx-3 opacity-30">•</li>
@@ -182,9 +200,12 @@
             <li class="mx-3 opacity-30">•</li>
             <li>DayJS</li>
             <li class="mx-3 opacity-30">•</li>
+            <li>Vue Test Utils</li>
+            <li class="mx-3 opacity-30">•</li>
+            <li>ChartJS</li>
+            <li class="mx-3 opacity-30">•</li>
             <li>Jest</li>
             <li class="mx-3 opacity-30">•</li>
-            <li>VeeTest</li>
           </ul>
         </div>
       </div>
@@ -205,7 +226,7 @@
             <li class="mx-3 opacity-30">•</li>
             <li>BalsamiQ</li>
             <li class="mx-3 opacity-30">•</li>
-            <li>Insomnia</li>
+            <li><span class="line-through mr-1">Insomnia</span> Bruno</li>
             <li class="mx-3 opacity-30">•</li>
             <li>Total Commander</li>
             <li class="mx-3 opacity-30">•</li>
@@ -213,9 +234,7 @@
             <li class="mx-3 opacity-30">•</li>
             <li>NotePad++</li>
             <li class="mx-3 opacity-30">•</li>
-            <li>Putty (ssh)</li>
-            <li class="mx-3 opacity-30">•</li>
-            <li>Nginx</li>
+            <li>ssh</li>
           </ul>
         </div>
       </div>
@@ -224,7 +243,7 @@
       </div>
     </div>
 
-    <p class="pt-3 pb-3 text-orange-1">
+    <p class="pt-3 pb-3 text-orange-1 text-">
       Thank you for having me! 🙏 Feel free to contact me
     </p>
 
