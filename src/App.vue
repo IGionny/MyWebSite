@@ -8,17 +8,9 @@
         <div class="flex items-center h-9">
           <WindowButtons @maximize="maximize" @minimize="minimize" @close="close"/>
         </div>
+        
+        <SideBar/>
 
-        <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-2">👋 About me</p>
-
-        <LeftMenuItem name="Summary" icon="fa-arrows-to-dot"/>
-        <LeftMenuItem name="Experiences" icon="fa-route"/>
-        <LeftMenuItem name="Passions" icon="fa-gamepad"/>
-        <LeftMenuItem name="Tools" icon="fa-wrench"/>
-
-        <hr class="mt-2 mb-4 border-gray-2">
-
-        <Knowledge/>
       </div>
       <div class="md:basis-3/4 bg-gray-3 md:rounded-r-xl flex flex-col ">
         <div class="h-9 bg-gray-2 md:rounded-tr-xl font-bold pl-4 flex items-center">
@@ -56,8 +48,9 @@
   </div>
   <div v-if="currentStatus === WindowStatus.MINIMIZED">
     <div class="min-h-screen flex flex-col items-center">
-      <footer class="fixed bg-gray-1 border-gray-2 border-1 bottom-2 p-4 mb-4 rounded-lg mx-auto w-auto shadow-2xl z-10 flex items-end"
-              style="height: 80px">
+      <footer
+          class="fixed bg-gray-1 border-gray-2 border-1 bottom-2 p-4 mb-4 rounded-lg mx-auto w-auto shadow-2xl z-10 flex items-end"
+          style="height: 80px">
         <div class="flex items-end gap-x-4" style="height: 96px">
           <DocApp @click.stop.prevent="backToNormal" class="bg-blue-300">
             <img :src="x" class="rounded-full fa-shake"/>
@@ -72,25 +65,24 @@
       </footer>
     </div>
   </div>
-  
+
   <div v-if="currentStatus === WindowStatus.CLOSED">
     <div class="flex h-screen">
       <div class="m-auto">
         <a v-show="!showConfetti" href="#" class="text-9xl" @click.stop.prevent="reOpen">😥</a>
         <span v-show="showConfetti" class="text-9xl">🙌</span>
-        <ConfettiExplosion v-if="showConfetti" />
+        <ConfettiExplosion v-if="showConfetti"/>
       </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
 import WindowButtons from "./components/WindowButtons.vue";
-import Knowledge from "./components/Knowledge.vue";
-import LeftMenuItem from "./components/LeftMenuItem.vue";
-import {nextTick, ref} from "vue";
+import {ref} from "vue";
 import DocApp from "./components/DocApp.vue";
 import x from "./assets/icons/android-chrome-192x192.png";
 import ConfettiExplosion from "vue-confetti-explosion";
+import SideBar from "./components/SideBar.vue";
 
 enum WindowStatus {
   NORMAL = 0,

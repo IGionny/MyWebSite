@@ -21,7 +21,7 @@
       </p>
 
       <ul class="list-disc ml-10 font-light">
-        <li>Web Development Mvc</li>
+        <li>Web Development Asp.Net Mvc</li>
         <li>Tests (xUnit, FluentAssertions)</li>
         <li>Patterns (Singleton, Factory and so on..)</li>
       </ul>
