@@ -7,6 +7,9 @@
     <ul class="text-gray-5 text-sm mt-2">
       <li>
         <router-link to="/case" title="CERTIFIED APPLICATION SECURITY ENGINEER - .NET">CASE .NET - 2022</router-link>
+        <p class="text-xs underline">
+          Certified Application Security Engineer .NET
+        </p>
         <!--<a href="https://aspen.eccouncil.org/Verify" target="_blank"
             ></a>-->
       </li>
@@ -57,7 +60,8 @@
 
     <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-5">📚 My library: new entries</p>
     <ul class="list-disc ml-10 font-light mt-2">
-        <li><a href="https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/">Designing Distributed Systems</a></li>
+      <li><a href="https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/">Designing
+        Distributed Systems</a></li>
     </ul>
 
   </div>
