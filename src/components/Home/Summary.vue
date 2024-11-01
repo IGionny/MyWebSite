@@ -1,4 +1,3 @@
-
 <template>
   <p class="pb-1">Last login: Sun October 2024 28 17:20:04 on ttys002</p>
   <p class="pb-3">Giovanni:DevProjects giovanni$</p>

@@ -34,15 +34,15 @@
     </span>
       <span>
       <a href="https://www.linkedin.com/in/giovanni-bismondo-033b7465/" title="Linkedin" target="_blank"
-         class="ml-2 hover:text-blue-300"><font-awesome-icon
+         class="ml-5 hover:text-blue-300"><font-awesome-icon
           icon="fa-brands fa-linkedin-in" class="ml-2 hover:text-blue-300"/></a>
-    <a href="https://twitter.com/GionnyBismondo" title="Twitter" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
+    <a href="https://twitter.com/GionnyBismondo" title="Twitter" target="_blank" class="ml-5 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-twitter" class="hover:text-blue-300"/></a>
-    <a href="https://github.com/IGionny/" title="GitHub" target="_blank" class="ml-2 hover:text-blue-300"><font-awesome-icon
+    <a href="https://github.com/IGionny/" title="GitHub" target="_blank" class="ml-5 hover:text-blue-300"><font-awesome-icon
         icon="fa-brands fa-github"/></a>
       
-    <a href="mailto:gbismondo@gmail.com"><font-awesome-icon icon="fa-solid fa-envelope"
-                                                            class="ml-2 hover:text-blue-300"/></a>
+    <a href="mailto:gbismondo@gmail.com" title="mail-me"><font-awesome-icon icon="fa-solid fa-envelope"
+                                                            class="ml-5 hover:text-blue-300"/></a>
       </span>
     </div>
   </div>
@@ -53,13 +53,13 @@
           style="height: 80px">
         <div class="flex items-end gap-x-4" style="height: 96px">
           <DocApp @click.stop.prevent="backToNormal" class="bg-blue-300">
-            <img :src="x" class="rounded-full fa-shake"/>
+            <img :src="x" class="rounded-full fa-shake" alt="Me"/>
           </DocApp>
           <DocApp @click.stop.prevent="backToNormal" class="bg-green-300">
-            <img :src="x" class="rounded-full  fa-shake"/>
+            <img :src="x" class="rounded-full  fa-shake" alt="Me"/>
           </DocApp>
           <DocApp @click.stop.prevent="backToNormal" class="bg-red-300">
-            <img :src="x" class="rounded-full  fa-shake"/>
+            <img :src="x" class="rounded-full  fa-shake" alt="Me"/>
           </DocApp>
         </div>
       </footer>
