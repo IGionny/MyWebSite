@@ -4,6 +4,7 @@
     <Experiences/>
     <Passions/>
     <Tools/>
+    <Books/>
     
     <p class="pt-3 pb-3 text-orange-1 text-">
       Thank you for having me! 🙏 Feel free to contact me
@@ -18,4 +19,5 @@ import Summary from "./Home/Summary.vue";
 import Experiences from "./Home/Experiences.vue";
 import Passions from "./Home/Passions.vue";
 import Tools from "./Home/Tools.vue";
+import Books from "./Home/Books.vue";
 </script>

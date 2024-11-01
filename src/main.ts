@@ -18,7 +18,7 @@ import {
     faGamepad,
     faChevronLeft,
     faChevronRight,
-    faRobot
+    faRobot, faBook
 } from '@fortawesome/free-solid-svg-icons'
 import {faEnvelope, faCertificate, faMagnifyingGlass, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 import {faWrench, faServer, faCubes, faHourglassStart} from '@fortawesome/free-solid-svg-icons'
@@ -48,6 +48,7 @@ library.add(faLinkedinIn);
 library.add(faSafari);
 library.add(faRust);
 library.add(faRobot);
+library.add(faBook);
 
 
 const routes = [
@@ -56,6 +57,7 @@ const routes = [
     {name: "experiences", path: '/home/experiences', component: Home},
     {name: "passions", path: '/home/passions', component: Home},
     {name: "tools", path: '/home/tools', component: Home},
+    {name: "books", path: '/home/books', component: Home},
     {name: "case", path: '/case', component: Case},
 ] satisfies RouteRecordRaw[];
 
