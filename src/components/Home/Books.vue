@@ -159,6 +159,11 @@ const readBooks: IBookInfo[] = [{
   url: "https://www.amazon.it/gp/product/B00UKK425O/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
   img: "https://m.media-amazon.com/images/I/817oC9agCwL._SY466_.jpg",
   preferred: true
+},{
+  title : "Punisher. Bentornato, Frank (Punisher Collection)",
+  url :"https://www.amazon.it/gp/product/B078142K3V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
+  img :"https://m.media-amazon.com/images/I/91Yn2t21RmL._SY466_.jpg",
+  preferred:true
 }];
 
 </script>
