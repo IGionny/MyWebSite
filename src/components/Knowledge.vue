@@ -57,13 +57,6 @@
         <li>Nuget/Npm local</li>
       </ul>
     </div>
-
-    <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-5">📚 My library: new entries</p>
-    <ul class="list-disc ml-10 font-light mt-2">
-      <li><a href="https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/">Designing
-        Distributed Systems</a></li>
-    </ul>
-
   </div>
 </template>
 

@@ -24,7 +24,7 @@
       </div>
       
     </div>
-    <Footer :current-status="currentStatus" />
+    <FooterLinks :current-status="currentStatus" />
   </div>
   <div v-if="currentStatus === WindowStatus.MINIMIZED">
     <div class="min-h-screen flex flex-col items-center">
@@ -63,7 +63,7 @@ import DocApp from "./components/DocApp.vue";
 import x from "./assets/icons/android-chrome-192x192.png";
 import ConfettiExplosion from "vue-confetti-explosion";
 import SideBar from "./components/SideBar.vue";
-import Footer from "./components/Footer.vue";
+import FooterLinks from "./components/FooterLinks.vue";
 import {WindowStatus} from "./@types/WindowStatus";
 
 const currentStatus = ref<WindowStatus>(WindowStatus.NORMAL);
