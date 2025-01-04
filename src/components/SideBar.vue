@@ -9,6 +9,7 @@
       <LeftMenuItem name="Experiences" icon="fa-route" @click="select('Experiences')"/>
       <LeftMenuItem name="Passions" icon="fa-gamepad" @click="select('Passions')"/>
       <LeftMenuItem name="Tools" icon="fa-wrench" @click="select('Tools')"/>
+      <LeftMenuItem name="Courses" icon="fa-person-chalkboard" @click="select('Courses')"/>
       <LeftMenuItem name="Books" icon="fa-book" @click="select('Books')"/>
     </div>
 
@@ -32,23 +33,27 @@ const select = (voice: string) => {
 </script>
 <style>
 .active-Summary > .menu-selector {
-  top: 3%;
+  top: 2%;
 }
 
 .active-Experiences > .menu-selector {
-  top: 23%;
+  top: 19%;
 }
 
 .active-Passions > .menu-selector {
-  top: 42%;
+  top: 36%;
 }
 
 .active-Tools > .menu-selector {
-  top: 62%;
+  top: 52%;
+}
+
+.active-Courses > .menu-selector {
+  top: 68%;
 }
 
 .active-Books > .menu-selector {
-  top: 83%;
+  top: 86%;
 }
 
 

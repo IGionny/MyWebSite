@@ -13,9 +13,14 @@
          class="hover:text-blue-300">
           <font-awesome-icon icon="fa-brands fa-linkedin-in"/>
       </a>
-      <a href="https://twitter.com/GionnyBismondo" title="Twitter" target="_blank" class="ml-5 hover:text-blue-300">
-        <font-awesome-icon icon="fa-brands fa-twitter"/>
+      <a href="https://x.com/GionnyBismondo" title="X" target="_blank" class="ml-5 hover:text-blue-300">
+        <font-awesome-icon icon="fa-brands fa-x-twitter"/>
       </a>
+      
+      <a href="https://bsky.app/profile/igionny.bsky.social" title="Blue Sky" target="_blank" class="ml-5 hover:text-blue-300">
+        <font-awesome-icon icon="fa-brands fa-bluesky"/>
+      </a>
+      
       <a href="https://github.com/IGionny/" title="GitHub" target="_blank" class="ml-5 hover:text-blue-300">
         <font-awesome-icon icon="fa-brands fa-github"/>
       </a>

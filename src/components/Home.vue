@@ -4,6 +4,7 @@
     <Experiences/>
     <Passions/>
     <Tools/>
+    <Courses/>
     <Books/>
     
     <p class="pt-3 pb-3 text-orange-1 text-">
@@ -20,4 +21,5 @@ import Experiences from "./Home/Experiences.vue";
 import Passions from "./Home/Passions.vue";
 import Tools from "./Home/Tools.vue";
 import Books from "./Home/Books.vue";
+import Courses from "./Home/Courses.vue";
 </script>

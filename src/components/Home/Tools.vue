@@ -74,6 +74,8 @@
           <li class="mx-3 opacity-30">•</li>
           <li>FluentAssertions</li>
           <li class="mx-3 opacity-30">•</li>
+          <li>NSubstitute</li>
+          <li class="mx-3 opacity-30">•</li>
           <li>NPgsql</li>
           <li class="mx-3 opacity-30">•</li>
           <li>FluentValidation</li>
