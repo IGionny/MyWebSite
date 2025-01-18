@@ -72,7 +72,7 @@
         <ul class="pt-1 flex flex-wrap text-sm gap-y-2 md:justify-start items-center font-karla">
           <li>Xunit</li>
           <li class="mx-3 opacity-30">•</li>
-          <li>FluentAssertions</li>
+          <li class="line-through">FluentAssertions</li>
           <li class="mx-3 opacity-30">•</li>
           <li>NSubstitute</li>
           <li class="mx-3 opacity-30">•</li>
@@ -108,7 +108,6 @@
           <li>ChartJS</li>
           <li class="mx-3 opacity-30">•</li>
           <li>Jest</li>
-          <li class="mx-3 opacity-30">•</li>
         </ul>
       </div>
     </div>
