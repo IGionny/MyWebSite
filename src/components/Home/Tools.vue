@@ -20,7 +20,7 @@
           <li class="mx-3 opacity-30">•</li>
           <li>Elastic Search</li>
           <li class="mx-3 opacity-30">•</li>
-          <li>Git / GitLab</li>
+          <li>Git</li>
           <li class="mx-3 opacity-30">•</li>
           <li>Docker</li>
           <li class="mx-3 opacity-30">•</li>
@@ -72,7 +72,7 @@
         <ul class="pt-1 flex flex-wrap text-sm gap-y-2 md:justify-start items-center font-karla">
           <li>Xunit</li>
           <li class="mx-3 opacity-30">•</li>
-          <li class="line-through">FluentAssertions</li>
+          <li><span class="line-through">FluentAssertions</span> Shouldly</li>
           <li class="mx-3 opacity-30">•</li>
           <li>NSubstitute</li>
           <li class="mx-3 opacity-30">•</li>
@@ -84,7 +84,11 @@
           <li class="mx-3 opacity-30">•</li>
           <li>Swashbukle</li>
           <li class="mx-3 opacity-30">•</li>
-          <li>Newtonsoft.Json</li>
+          <li><span class="line-through">Newtonsoft.Json</span> System.Text.Json</li>
+          <li class="mx-3 opacity-30">•</li>
+          <li>FluentResults</li>
+          <li class="mx-3 opacity-30">•</li>
+          <li>MediatR (< 13 😔)</li>
         </ul>
       </div>
     </div>
@@ -137,6 +141,10 @@
           <li>NotePad++</li>
           <li class="mx-3 opacity-30">•</li>
           <li>ssh</li>
+          <li class="mx-3 opacity-30">•</li>
+          <li>Moqups</li>
+          <li class="mx-3 opacity-30">•</li>
+          <li>Napkin</li>
         </ul>
       </div>
     </div>

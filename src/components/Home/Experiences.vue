@@ -7,8 +7,9 @@
     <li class="mb-10 ms-4">
       <div
           class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-      <time class="mb-1 text-sm font-normal leading-none text-gray-5">2017 - Today (2024)</time>
-      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Software Architect / Developer</h3>
+      <time class="mb-1 text-sm font-normal leading-none text-gray-5">2017 - Today (2025)</time>
+      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Software Architect / Developer / Senior
+        Consultant</h3>
       <p class=" text-base font-normal text-gray-5">
         Over the past seven years as a Senior Developer, I've led software development initiatives, making crucial
         decisions on technological stacks, design, tasks, and procedures. I've honed my technical skills in software
@@ -18,7 +19,9 @@
       <p class=" text-base font-normal text-gray-5">I've achieved the
         <router-link to="/case" title="CERTIFIED APPLICATION SECURITY ENGINEER - .NET">
           <font-awesome-icon icon="fa-solid fa-certificate" class="text-yellow-200 mr-1"/>
-          EC-Council CASE .NET - 2022 certification</router-link>, emphasizing my commitment to application security.
+          EC-Council CASE .NET - 2022 certification
+        </router-link>
+        , emphasizing my commitment to application security.
       </p>
       <p class=" text-base font-normal text-gray-5">
         Working on projects exclusively in <u>.NET Core</u>, <u>Typescript</u>, and <u>VueJS</u>, I've

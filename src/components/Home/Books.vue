@@ -116,6 +116,24 @@ const techBooks: IBookInfo[] = [{
 
 const readBooks: IBookInfo[] = [
   {
+    title: "Project Hail Mary",
+    url: "https://www.amazon.it/dp/B0BS2244QP",
+    img: "https://m.media-amazon.com/images/I/81Q2HUS1PbL._SY466_.jpg",
+    preferred: true
+  },
+  {
+    title: "Mickey7",
+    url: "https://www.amazon.it/dp/B0DXFPL5SD",
+    img: "https://m.media-amazon.com/images/I/81ObMjCjk1L._SY466_.jpg",
+    preferred: true
+  },
+  {
+    title: "Il monaco che vendette la sua Ferrari",
+    url: "https://www.amazon.it/dp/B00RXWKWAQ",
+    img: "https://m.media-amazon.com/images/I/819ZIMtcHkL._SY466_.jpg",
+    preferred: true
+  },
+  {
     title: "L'eredità di Charlie",
     url: "https://www.amazon.it/gp/product/B0D1G3X42M",
     img: "https://m.media-amazon.com/images/I/71-N-cSPQIL._SL1500_.jpg",

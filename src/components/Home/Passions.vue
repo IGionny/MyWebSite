@@ -13,7 +13,7 @@
     following the latest trends on Twitter. Recently, I've been fascinated by language models like <u>LLM</u>,
     exploring
     their potential in changing how we interact with technology. These passions add a unique flavor to my daily
-    adventures!
+    adventures ⚔️!
   </p>
 </template>
 <script setup lang="ts">
