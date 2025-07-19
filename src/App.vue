@@ -29,7 +29,7 @@
   <div v-if="currentStatus === WindowStatus.MINIMIZED">
     <div class="min-h-screen flex flex-col items-center">
       <footer
-          class="fixed bg-gray-1 border-gray-2 border-1 bottom-2 p-4 mb-4 rounded-lg mx-auto w-auto shadow-2xl z-10 flex items-end"
+          class="fixed bg-gray-1 border-gray-2 border bottom-2 p-4 mb-4 rounded-lg mx-auto w-auto shadow-2xl z-10 flex items-end"
           style="height: 80px">
         <div class="flex items-end gap-x-4" style="height: 96px">
           <DocApp @click.stop.prevent="backToNormal" class="bg-blue-300">

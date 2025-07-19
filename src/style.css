@@ -1,3 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@layer utilities {
+    .bg-mountains {
+        background-image: url('https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+        background-position: center top;
+    }
+}
+
+@theme {
+
+    --color-gray-1: #303230;
+    --color-gray-2: #3C3E3B;
+    --color-gray-3: #272B28;
+    --color-gray-4: #717371;
+    --color-gray-5: #EDEDED;
+    --color-orange-1: #FF9100;
+    --color-red-1: #FE5F57;
+    --color-yellow-1: #FDBC2C;
+    --color-green-1: #2BC840;
+
+
+}

@@ -2,7 +2,7 @@
   <nav class="sticky top-0">
     <p class="text-1xl text-gray-4 fond-bold text-sm mb-2 mt-2">👋 About me</p>
     <div class="relative block height-[130px]" :class="'active-' + activeMenuItem">
-      <div class="z-0 h-6 menu-selector absolute left-0 bg-gray-4 bg-gradient-to-bl w-[95%] p-1 rounded-md transition-all">
+      <div class="z-0 h-6 menu-selector absolute left-0 bg-gray-4 bg-linear-to-bl w-[95%] p-1 rounded-md transition-all">
         &nbsp;
       </div>
       <LeftMenuItem name="Summary" icon="fa-arrows-to-dot" @click="select('Summary')"/>
