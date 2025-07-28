@@ -35,9 +35,10 @@
             </li>
           </ul>
         </li>
-        <li>Tests (xUnit, FluentAssertions)</li>
+        <li>Tests (xUnit, NSubstitute, Coverlet)</li>
+        <li>Analyzers (StyleCop, SonarCube)</li>
         <li>Patterns (Singleton, Factory and so on..)</li>
-        <li>SOLID / CLEAN / KISS / DRY Priciples</li>
+        <li>SOLID / CLEAN / KISS / DRY Principles</li>
       </ul>
     </div>
     <div class="mb-1">
@@ -49,9 +50,6 @@
         <span title="from 2000">Javascript & Jquery</span>
         <span>{{ getYearsFrom(2000) }} Yrs 🎄</span>
       </p>
-      <div>
-        (previously Javascript and JQuery)
-      </div>
       <ul class="list-disc ml-10 font-light">
         <li>SPA</li>
         <li>Big Apps</li>
