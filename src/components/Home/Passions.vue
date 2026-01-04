@@ -4,7 +4,7 @@
     Passions
   </h4>
   <p class="pb-1">
-    I'm passionate about video games, eagerly awaiting <u>Alan Wake 2</u> and <u>Baldur's Gate 3</u>. TV-wise, I love
+    I'm passionate about video games: <u>Sekiro: Shadows Die Twice</u>, <u>Hollow Knight: Silksong (100% Complete! 🎉)</u>, <u>Alan Wake 2</u>, <u>Baldur's Gate 3</u>. TV-wise, I love
     the humor in
     <u>Boris</u> and the dark superhero world of <u>The Boys</u>." Comics like Spider-Man and manga are also big
     interests.

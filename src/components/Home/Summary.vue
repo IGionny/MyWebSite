@@ -1,5 +1,5 @@
 <template>
-  <p class="pb-1">Last login: Sun July 2025 19 17:20:04 on ttys002</p>
+  <p class="pb-1">Last login: Sun January 2026 04 13:02:04 on ttys002</p>
   <p class="pb-3">Giovanni:DevProjects giovanni$</p>
   <p class="pb-1">
     <span class="text-orange-1 font-bold">Hi 👋 there!</span>, I'm a father, gamer and developer in Padua, Italy.
@@ -16,10 +16,4 @@
       class="text-decoration-line-through">Total</span> Commander</u>, <u>NotePad++</u>, <u>PgAdmin</u>,
     <u>Docker</u> etc..
   </p>
-  <p class="pt-2 pb-1">
-    I'm currently (on January 2025) studying <img src="https://global.discourse-cdn.com/flex035/uploads/threejs/original/2X/b/be2f75f72751c11cbe1593c69a99a52900bf12cb.svg" alt="Threejs-logo" width="24" height="24" loading="lazy" class="inline"> <u>ThreeJS</u> 3D webgl library and (still/slowly) working on a <u>OSS Application for Mac</u>.
-  </p>
 </template>
-<script setup lang="ts">
-
-</script>

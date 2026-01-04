@@ -7,7 +7,7 @@
     <li class="mb-10 ms-4">
       <div
           class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-      <time class="mb-1 text-sm font-normal leading-none text-gray-5">2017 - Today (2025)</time>
+      <time class="mb-1 text-sm font-normal leading-none text-gray-5">2017 - Today (2026)</time>
       <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Software Architect / Developer / Senior
         Consultant</h3>
       <p class=" text-base font-normal text-gray-5">
@@ -27,7 +27,8 @@
         Working on projects exclusively in <u>.NET Core</u>, <u>Typescript</u>, and <u>VueJS</u>, I've
         utilized technologies such
         as
-        <u>Elastic Search</u>, <u>Azure Auth</u>, <u>GitLab</u>, and more, across diverse applications like <u>ERP</u>,
+        <u>Elastic Search</u>, <u>Azure Auth</u>, <u>GitHub</u>, <u>GitLab</u>, and more, across diverse applications
+        like <u>Industrial Testing Procedures</u>, <u>ERP</u>,
         <u>password management</u> (complete suite with browser extensions),
         <u>network access control</u>, <u>automated reporting systems</u> (Kibana like), and virtual machine management.
       </p>

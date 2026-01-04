@@ -75,7 +75,7 @@
         <span>Agile / Jira / GitFlow</span>
       </p>
       <ul class="list-disc ml-10 font-light">
-        <li>Agile / Sprint / Kanban / Jira / Confluence..</li>
+        <li>Agile / Scrum / Kanban / Jira / Confluence..</li>
         <li>GitFlow Branching strategies</li>
         <li>Conventional Commits</li>
         <li>Pull Request / Squash</li>

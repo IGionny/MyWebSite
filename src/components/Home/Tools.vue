@@ -124,27 +124,31 @@
       </div>
       <div class="bg-gray-1 rounded-2xl p-4">
         <ul class="pt-1 flex flex-wrap text-sm gap-y-2 md:justify-start items-center font-karla">
-          <li>JetBrains Rider</li>
+          <li><a href="https://www.jetbrains.com/rider/">JetBrains Rider</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>Cypress</li>
+          <li><a href="https://www.cypress.io">Cypress</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>PgAdmin</li>
+          <li><a href="https://playwright.dev">Playwright</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>BalsamiQ</li>
+          <li><a href="https://www.pgadmin.org">PgAdmin</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li><span class="line-through mr-1">Insomnia</span> Bruno</li>
+          <li><a href="https://balsamiq.com">BalsamiQ</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>Total Commander</li>
+          <li><a href="https://moqups.com">Moqups</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>Visual Studio Code</li>
+          <li><span class="line-through mr-1">Insomnia</span> <a href="https://www.usebruno.com">Bruno</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>NotePad++</li>
+          <li><a href="https://www.ghisler.com">Total Commander</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>ssh</li>
+          <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>Moqups</li>
+          <li><a href="https://notepad-plus-plus.org">NotePad++</a></li>
           <li class="mx-3 opacity-30">•</li>
-          <li>Napkin</li>
+          <li><a href="https://en.wikipedia.org/wiki/Secure_Shell">ssh</a></li>
+          <li class="mx-3 opacity-30">•</li>
+          <li><a href="https://www.napkin.ai">Napkin</a></li>
+          <li class="mx-3 opacity-30">•</li>
+          <li><a href="https://www.rabbitmq.com">RabbitMQ</a></li>
         </ul>
       </div>
     </div>
@@ -166,11 +170,7 @@
       </div>
     </div>
   </div>
+  <p>
+    <img src="../../assets/desktop.jpeg" loading="lazy" alt="MyDesktop"  height="756" width="1024" class="mx-auto rounded-2xl"/>
+  </p>
 </template>
-<script setup lang="ts">
-
-</script>
-
-<style scoped>
-
-</style>
