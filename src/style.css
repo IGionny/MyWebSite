@@ -4,6 +4,7 @@
     .bg-mountains {
         background-image: url('https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
         background-position: center top;
+        background-attachment: fixed;
     }
 }
 

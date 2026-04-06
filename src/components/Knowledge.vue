@@ -28,7 +28,7 @@
           Web Development Asp.Net Mvc
           <ul>
             <li>
-              😍 Asp.Net Core >= 2 <= 9 (current)
+              😍 Asp.Net Core >= 2 <= 10 (current)
             </li>
             <li>
               🤮 Asp.Net Framework >= 2 <= 4.8

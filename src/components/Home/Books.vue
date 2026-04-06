@@ -37,17 +37,24 @@ interface IBookInfo {
   preferred: boolean;
 }
 
-const techBooks: IBookInfo[] = [{
-  title: "Designing Distributed Systems",
-  url: "https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/",
-  img: "https://learning.oreilly.com/library/cover/9781491983638/250w/",
-  preferred: true
-}, {
-  title: "The Art of Unit Testing",
-  url: "https://www.manning.com/books/the-art-of-unit-testing",
-  img: "https://images.manning.com/264/352/resize/book/4/d03ac2e-3009-46cf-9e4c-603819414675/osherove.png",
-  preferred: true
-},
+const techBooks: IBookInfo[] = [
+  {
+    title: "Scrum: The Art of Doing Twice the Work in Half the Time",
+    url: "https://www.amazon.it/Scrum-Doing-Twice-Work-Half/dp/1847941109/",
+    img: "https://m.media-amazon.com/images/I/71OUBnMjOwL._SY466_.jpg",
+    preferred: true
+  },
+  {
+    title: "Designing Distributed Systems",
+    url: "https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/",
+    img: "https://learning.oreilly.com/library/cover/9781491983638/250w/",
+    preferred: true
+  }, {
+    title: "The Art of Unit Testing",
+    url: "https://www.manning.com/books/the-art-of-unit-testing",
+    img: "https://images.manning.com/264/352/resize/book/4/d03ac2e-3009-46cf-9e4c-603819414675/osherove.png",
+    preferred: true
+  },
   {
     title: "Atomic Habits",
     url: "https://jamesclear.com/atomic-habits",
@@ -115,6 +122,12 @@ const techBooks: IBookInfo[] = [{
 
 
 const readBooks: IBookInfo[] = [
+  {
+    title: "Artemis",
+    url: "https://www.amazon.it/dp/B07651TLK1",
+    img: "https://m.media-amazon.com/images/I/81N1FmXBgmL._SY466_.jpg",
+    preferred: true
+  },
   {
     title: "Project Hail Mary",
     url: "https://www.amazon.it/dp/B0BS2244QP",

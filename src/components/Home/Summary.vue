@@ -1,5 +1,5 @@
 <template>
-  <p class="pb-1">Last login: Sun January 2026 04 13:02:04 on ttys002</p>
+  <p class="pb-1">Last login: Mon April 2026 04 13:02:04 on ttys002</p>
   <p class="pb-3">Giovanni:DevProjects giovanni$</p>
   <p class="pb-1">
     <span class="text-orange-1 font-bold">Hi 👋 there!</span>, I'm a father, gamer and developer in Padua, Italy.
